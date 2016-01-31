@@ -28,4 +28,8 @@ public class A{
 		this.A3 = A3;
 	}
 
+	public float soma(){
+		return this.A1 + this.A2;
+	}
+
 }
