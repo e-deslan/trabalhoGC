@@ -3,6 +3,7 @@ public class A{
 	private int A1;
 	private float A2;
 	private String A3;
+	private String Aprinc4;
 
 	public int getA1(){
 		return A1;
@@ -28,8 +29,15 @@ public class A{
 		this.A3 = A3;
 	}
 
+	public String getAprinc4(){
+		return Aprinc4;
+	}
+
+	public void setAprinc4(String Aprinc4){
+		this.Aprinc4 = Aprinc4;
+	}
+
 	public float soma(){
 		return this.A1 + this.A2;
 	}
-
 }
